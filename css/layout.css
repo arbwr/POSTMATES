@@ -944,7 +944,7 @@ body::before {
 	transform: scale3d(0.8, 0.5, 1);
 }
 .button--moema:hover {
-	background-color:#1c242c;
+	background-color: #fbd428;
 	-webkit-transition: background-color 0.3s 0s, color 0.3s 0s;
 	transition: background-color 0.3s 0s, color 0.3s 0s;
 	color:#fff;
@@ -2367,9 +2367,6 @@ body.body--hidden .cd-header{
 	margin: 0 auto;
 }
 
-.item44 {
-	color: #000 !important;
-}
 
 .card__btn-close {
 	font-size: 48px;
