@@ -25,7 +25,7 @@ sendButton.addEventListener("click", () => {
     
 
     if(emri == "" || emaili == "" || mesazhi == ""){
-        document.getElementById('ajaxsuccess').innerHTML = "Ju lutem plotësoni të gjitha fushat"
+        document.getElementById('ajaxsuccess').innerHTML = "Ju lutem plotësoni të gjitha fushat."
         document.getElementById('ajaxsuccess').style.display = "block" 
     }
     else{
@@ -36,7 +36,7 @@ sendButton.addEventListener("click", () => {
             pergjigjur: false
         }).then(() => {
             document.getElementById('ajaxsuccess').style.color = "#4BB543"
-            document.getElementById('ajaxsuccess').innerHTML = "Mesazhi u dërgua me sukses"
+            document.getElementById('ajaxsuccess').innerHTML = "Mesazhi u dërgua me sukses."
             document.getElementById('ajaxsuccess').style.display = "block"
             setTimeout(function(){location.reload()}, 2000);
         })
