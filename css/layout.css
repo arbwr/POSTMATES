@@ -2671,11 +2671,12 @@ figure.vimeo a img, figure.youtube a img {
 	color:#636363;
 }
 #ajaxsuccess {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 	color: #ff0033;
 	height:60px;
 	font-size: 20px;
 	display: none;
-	padding-left:10px;
+	padding-left: 30px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
